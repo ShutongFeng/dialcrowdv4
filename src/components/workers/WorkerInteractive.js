@@ -944,6 +944,19 @@ function _renderCardItems(item) {
     return item.split(",").map((x) => <p>{x}</p>);
   }
 }
+function _renderCard(cardName, item, key) {
+  if (key in item) {
+    if (item[key].length > 0) {
+      return (
+        <p>
+          <b>{cardName}</b>
+          <br />
+          {item[key].split(",").map((x) => <p>{x}</p>)}
+        </p>
+      );
+    }
+  }
+}
 function _renderTasks(taskList) {
   return (
     <div style={{ background: "#ECECEC", padding: "30px" }}>
@@ -956,14 +969,13 @@ function _renderTasks(taskList) {
               headStyle={{ size: 20, "text-align": "center" }}
               bodyStyle={{ size: 10, "text-align": "center" }}
             >
-              {_renderCardName("Condition", item.Cons)}
-              {_renderCardItems(item.Cons)}
+              {_renderCard("Scenario", item, "Scenario")}
               <p></p>
-              {_renderCardName("Please Book", item.Book)}
-              {_renderCardItems(item.Book)}
+              {_renderCard("Condition", item, "Cons")}
               <p></p>
-              {_renderCardName("Please Ask", item.Reqs)}
-              {_renderCardItems(item.Reqs)}
+              {_renderCard("Please Book", item, "Book")}
+              <p></p>
+              {_renderCard("Please Ask", item, "Reqs")}
             </Card>
           </Col>
         ))}
