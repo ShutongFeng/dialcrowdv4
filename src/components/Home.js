@@ -23,8 +23,6 @@ class Home extends React.Component {
       ethically and can be made available to the community with as few restrictions as possible that do not compromise
         a worker’s privacy.</p>
       <h1> People </h1>
-      <p><a href="https://www.cs.hhu.de/en/research-groups/dialog-systems-and-machine-learning/our-team/team.html" target={"_blank"} rel="noopener noreferrer">Songbo Hu</a>,
-        Intern@Heinrich Heine University Düsseldorf</p>
       <p><a href="https://www.cs.hhu.de/en/research-groups/dialog-systems-and-machine-learning/our-team/team/cv-gasic.html" target={"_blank"} rel="noopener noreferrer">Prof. Milica Gašić</a>,
         Heinrich Heine University Düsseldorf
       </p>
@@ -34,19 +32,21 @@ class Home extends React.Component {
       <p><a href="http://www.nflubis.com/" target={"_blank"} rel="noopener noreferrer">Dr. Nurul Fithria Lubis</a>,
         Heinrich Heine University Düsseldorf
       </p>
-      <p><a href="https://carelvniekerk.github.io/" target={"_blank"} rel="noopener noreferrer">Carel van Niekerk</a>,
+      <p><a href="https://carelvniekerk.github.io/" target={"_blank"} rel="noopener noreferrer">Dr. Carel van Niekerk</a>,
         Heinrich Heine University Düsseldorf
       </p>
-      <p><a href="https://www.cs.hhu.de/en/research-groups/dialog-systems-and-machine-learning/our-team/team.html" target={"_blank"} rel="noopener noreferrer">Shutong Feng</a>,
+      <p><a href="https://hsien1993.github.io/" target={"_blank"} rel="noopener noreferrer">Dr. Hsien-Chin Lin</a>,
         Heinrich Heine University Düsseldorf
       </p>
-      <p><a href="https://chrisgeishauser.github.io/" target={"_blank"} rel="noopener noreferrer">Christian Geishauser</a>,
+      <p><a href="https://ben300694.github.io/" target={"_blank"} rel="noopener noreferrer">Dr. Benjamin Matthias Ruppik</a>,
         Heinrich Heine University Düsseldorf
       </p>
-      <p><a href="https://hsien1993.github.io/" target={"_blank"} rel="noopener noreferrer">Hsien-Chin Lin</a>,
+      <p><a href="https://shutongfeng.github.io/" target={"_blank"} rel="noopener noreferrer">Shutong Feng</a>,
         Heinrich Heine University Düsseldorf
       </p>
-
+      <p><a href="https://renatovukovic.github.io/" target={"_blank"} rel="noopener noreferrer">Renato Vukovic</a>,
+        Heinrich Heine University Düsseldorf
+      </p>
       <h1> Contact </h1>
       <p> Contact at dialog@hhu.de</p>
 
