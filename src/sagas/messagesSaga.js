@@ -7,7 +7,7 @@ import { serverUrl } from "../configs";
 
 export default function* messagesSaga(sessionData, sid, synth) {
   try {
-      yield put(addMessage("Connecting to the dialogue system. Please wait for the system response.", Date.now(), true));
+      yield put(addMessage("Connecting to the dialogue system. Please wait for the system response. It may take up to 20 seconds after each query.", Date.now(), true));
 
       const response = yield call(
       axios.post,
